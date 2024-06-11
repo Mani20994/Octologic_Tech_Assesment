@@ -136,7 +136,7 @@ public class Minimals_Management {
 		driver.findElement(By.xpath("//body/div[2]/div[3]/div[1]/div[2]/button[1]")).click();
 		Thread.sleep(2000);
 		
-		driver.close();
+		driver.quit();
 		
 }}
 
