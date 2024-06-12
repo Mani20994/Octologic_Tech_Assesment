@@ -71,15 +71,6 @@ public class Minimals_Management {
 		Thread.sleep(10000);
 		
 		
-		//Order
-		driver.findElement(By.xpath("//span[contains(text(),'order')]")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		//List
-		driver.findElement(By.xpath("//span[contains(text(),'list')]")).click();
-		Thread.sleep(10000);
-		
-		
 		//jobs
 		driver.findElement(By.xpath("//span[contains(text(),'job')]")).click();
 		Thread.sleep(4000);
